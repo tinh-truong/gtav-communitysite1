@@ -1,0 +1,1 @@
+<div class="counter" data-count="500">0</div>

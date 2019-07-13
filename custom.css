@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body 
+{
+	font-family: 'Lato', sans-serif;
+}
+.navbar-toggler 
+{
+	border:none;
+}
+
+.top
+{
+	background-image: url("https://imgvol.cdn.lcpdfr.com/screenshots/monthly_2017_10/59d20e4d53165_DesktopScreenshot2017_10.02-19_18_25_93.png.eb962c099db04980b2fd267cd0795401.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:white;
+}
+
+.footer
+{
+	background-color:#994931;
+	width: 100%;
+	bottom:0;
+}
+
+footer
+{
+	padding:20px;
+	color:white;
+}
+
+.count
+{
+	display: inline-block;
+	margin:20px;
+}
+
+.count h5
+{
+	color:white;
+	background-color:#f56c42;
+	padding:5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 50px;
+}
+
+.count p
+{
+	font-weight: 400;
+}

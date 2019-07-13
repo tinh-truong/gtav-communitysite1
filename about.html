@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Example Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="og:name" content="Example Website">
+	<meta name="og:author" content="Tinh Truong">
+	<meta name="og:description" content="This website was designed and made by Tinh Truong. It useds Bootstrap, FontAwesome Kit, and Scripts. If you are interested in getting a website like this, create a ticket.">
+	<meta name="theme-color" content="#f56c42">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/41f7fcfefe.js"></script>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<style type="text/css">
+	.bg-custom 
+	{
+	background-color:#f56c42;
+	}
+	#white
+	{
+	color: #FFFFFF;
+	}
+	#reddish
+	{
+		color:#f56c42;
+	}
+	.nav-item
+	{
+		color:#FFFFFF;
+	}
+	.nav .navbar
+	{
+		width: 100%;
+		position: absolute;
+	}
+	.move
+	{
+		padding: 100px;
+	}
+	.btn
+	{
+		padding:5px 15px 5px 15px;
+	}
+	.bgg
+	{
+		font-size:30px;
+		text-align: center;
+	}
+	.card
+	{
+		width:30%;
+		margin-top:15px;
+		padding:10px;
+		border: none;
+		display: inline-block;
+	}
+	p
+	{
+		text-indent: 10px;
+	}
+	@media only screen and (max-width: 987px) {
+	.card
+	{
+		display:block;
+		width: 100%;
+	}
+}
+	@media only screen and (max-width: 426px) {
+	.card
+	{
+		display:block;
+		width: 100%;
+	}
+	.move
+	{
+		margin-left:-55px;
+	}
+}
+	#resized
+	{
+		width: 140px;
+		border-radius: 200px;
+	}
+	</style>
+</head>
+<body>
+	<section class="nav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-custom">
+		  <a class="navbar-brand" href="#" id="white">
+		  	<strong>Example</strong> Website
+		  </a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id="white">
+		    <i class="fas fa-bars"></i>
+		  	</button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link" href="https://examples.ttruongaly.xyz/community-site-1/" id="white">Home</a>
+		      <a class="nav-item nav-link active" href="#" id="white">About <span class="sr-only">(current)</span></a>
+		      <a class="nav-item nav-link" href="#" id="white">MDT</a>
+		    </div>
+		  </div>
+		</nav>
+	</section>
+	<section class="top">
+		<div class="container-fluid move">
+			<div class="container">
+				<h3 class="title">New <span style="color:#f56c42;"><b>Generation</b></span></h3>
+				<h4 class="subtitle">Of Roleplay</h4>
+				<a href="#" class="btn btn-info"><i class="fab fa-discord"></i>  Discord</a>
+			</div>
+		</div>
+	</section>
+	<section class="middle">
+		<div class="container-fluid" align="center">
+			<div class="container">
+				<h3>About Us</h3>
+				<p align="left">Diam donec adipiscing tristique risus nec. Massa massa ultricies mi quis hendrerit. Diam vulputate ut pharetra sit. Elementum nisi quis eleifend quam adipiscing. Convallis a cras semper auctor neque vitae tempus quam pellentesque. Sed elementum tempus egestas sed. Blandit cursus risus at ultrices. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Tempor orci eu lobortis elementum nibh tellus molestie.</p>
+				<h3>Staff Team</h3>
+				<div class="card">
+				  <img id="resized" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYDsQF4MIEwsyMOXwQUSWgKMoYgr8__u_HSKE0CyPZMg6Z40J" class="card-img-top" alt="Founder Picture">
+					  <div class="card-body">
+					    <h5 class="card-title">Kyle Nelson</h5>
+					    <div class="btn btn-warning">Head Of Staff</div>
+					  </div>
+				</div>
+				<div class="card">
+				  <img id="resized" src="https://i0.wp.com/zblogged.com/wp-content/uploads/2019/02/FakeDP.jpeg?resize=567%2C580&ssl=1" class="card-img-top" alt="Founder Picture">
+					  <div class="card-body">
+					    <h5 class="card-title">Philip Niles</h5>
+					    <div class="btn btn-info">Founder</div>
+					  </div>
+				</div>
+				<div class="card">
+				  <img id="resized" src="https://timpanywalton.co.nz/wp-content/uploads/2019/05/emily-profile@2x-300x300.jpg" class="card-img-top" alt="Founder Picture">
+					  <div class="card-body">
+					    <h5 class="card-title">Amanda Liana</h5>
+					    <div class="btn btn-success">Developer</div>
+					  </div>
+				</div>
+				<h6><span class="btn btn-secondary">Contact Us</span> contact@rpcommunity.net</h6>
+				<h6><span class="btn btn-primary">Instagram</span> @rpcommunity</h6>
+			</div>
+		</div>
+	</section>
+	<section class="footer" align="center">
+		<div class="container">
+			<footer>Copyright&copy; 2019 TTAL Development. All rights are reserved.</footer>
+		</div>
+	</section>
+<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="counter.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
